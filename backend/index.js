@@ -4,7 +4,7 @@ const cors = require('cors');
 const mysql = require('mysql2');
 
 const app = express();
-const port = 3001; // Port number for your server
+const port = 3001;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -18,7 +18,6 @@ const pool = mysql.createPool({
     database: 'setaf'
 });
 
-// Endpoint to handle form submission and store data in the database
 app.post('/create', (req, res) => {
     const {
         academicyear,
