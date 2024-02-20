@@ -43,6 +43,8 @@ const NavBarExample = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <div className='container'>
           <Nav>
+
+            
             <div className='col-lg-4'>
             <span className='text-success font-weight-bold responsive-font fs-5'>Name:Dr.Arjun Rajput</span>
             </div>
