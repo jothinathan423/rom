@@ -35,7 +35,7 @@ const NavBarExample = () => {
             <Navbar collapseOnSelect expand="lg" className="bg-body-white">
       <Container fluid className=''>
         <Navbar.Brand href="#home" className=' col-md-6 col-xl-4 col-lg-3'>
-                        <img src="main-logo(1).png" alt="Your Logo" className="img-fluid" /></Navbar.Brand>
+                        <img src="rom/main-logo(1).png" alt="Your Logo" className="img-fluid" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <div className='container'>
