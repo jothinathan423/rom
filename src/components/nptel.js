@@ -5,6 +5,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import SendIcon from '@mui/icons-material/Send';
 import Box from '@mui/material/Box';
 import axios from 'axios';
+import backimg from "../IMG_20230708_163943.jpg"
 
 
 
@@ -71,7 +72,8 @@ const NptelCert = () => {
     
 
     return (
-        <div style={{ backgroundImage: 'url(IMG_20230708_163943.jpg)', backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat' }}>
+        <div style={{ backgroundImage: `url(${backimg})`, backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat' }}>
+
             <div className="container align-self-center pt-5 pe-5 col-10 pb-5 bg-light col-xxl-5 col-xl-6 col-lg-7 col-md-8 my-3  rounded-4 col-5 shadow-lg" style={{ backgroundColor: 'white' }}>
                 <h1>EVENT PROPOSAL</h1>
                 <br />

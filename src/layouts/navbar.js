@@ -1,10 +1,13 @@
 
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { Outlet, Link } from "react-router-dom"
+import logo from "../main-logo(1).png"
+import backimg from "../IMG_20230708_163943.jpg"
 
 
 
 import React, { useState } from 'react';
+
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Button, TextField, Typography } from "@mui/material"
@@ -35,7 +38,7 @@ const NavBarExample = () => {
             <Navbar collapseOnSelect expand="lg" className="bg-body-white">
       <Container fluid className=''>
         <Navbar.Brand href="#home" className=' col-md-6 col-xl-4 col-lg-3'>
-                        <img src="rom/main-logo(1).png" alt="Your Logo" className="img-fluid" /></Navbar.Brand>
+                        <img src={logo} alt="Your Logo" className="img-fluid" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <div className='container'>
