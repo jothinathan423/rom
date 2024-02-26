@@ -18,6 +18,28 @@ const pool = mysql.createPool({
     database: 'setaf'
 });
 
+
+
+
+
+app.get('/getproposal',async(req,res)=>{
+    const sql ="select * from nptel_certification";
+    pool.query(sql,(err,result)=>{
+        if(err){
+            res.status(500).json({'error':err.message})
+            return
+        }
+        if(result.length==0){
+            res.status(404).json({'message':'no records are found'})
+        }
+        res.status(200).json({result})
+    })
+})
+
+
+
+
+
 app.post('/create', (req, res) => {
     const {
         academicyear,

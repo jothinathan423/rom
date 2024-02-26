@@ -16,9 +16,9 @@ function App() {
         <Routes>
           <Route path='/' element={<NavBarExample/>}>
             <Route index element={<Home/>}></Route>
-            <Route path='tables' element={<NptelCert/>}></Route>
-            <Route path='contact' element={<Contact/>}></Route>
             <Route path='nptel' element={<NptelCert/>}></Route>
+            <Route path='tables' element={<EnhancedTable/>}></Route>    
+            <Route path='contact' element={<Contact/>}></Route>
             <Route path='*' element={<Navigate replace to="/"/>}></Route>
           </Route>
         </Routes>

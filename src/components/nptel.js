@@ -69,10 +69,10 @@ const NptelCert = () => {
       }
   }
 
-    
+   
 
     return (
-        <div style={{ backgroundImage: `url(${backimg})`, backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat' }}>
+        <div className='p-3' style={{ backgroundImage: `url(${backimg})`, backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat'}}>
 
             <div className="container align-self-center pt-5 pe-5 col-10 pb-5 bg-light col-xxl-5 col-xl-6 col-lg-7 col-md-8 my-3  rounded-4 col-5 shadow-lg" style={{ backgroundColor: 'white' }}>
                 <h1>EVENT PROPOSAL</h1>

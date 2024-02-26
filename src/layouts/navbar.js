@@ -77,7 +77,7 @@ const NavBarExample = () => {
               <NavDropdown.Item href="#action/3.5">
                 Faculty Guest Talk in another institutions
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/tables">
+              <NavDropdown.Item as={Link} to="/nptel">
                 NPTEL Certifications
               </NavDropdown.Item>
               <NavDropdown.Item  as={Link} to="/contact">
@@ -86,7 +86,7 @@ const NavBarExample = () => {
               <NavDropdown.Item as={Link} to="/home">
                 e-Certificate(VIDEO LECTURE)
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.9">visit to industries,institutions
+              <NavDropdown.Item as={Link} to="/tables">tables{/*visit to industries,institutions*/}
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.10">
                 Seed Money Proposal For Research
